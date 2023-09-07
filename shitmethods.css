@@ -1,0 +1,92 @@
+body {
+    background-color: rgb(31, 31, 77);
+    color: white;
+    display: flex;
+    font-family: Ubuntu;
+}
+@font-face {
+    font-family: 'Ubuntu';
+    src: url('fonts/ubuntu-font-family-0.80/Ubuntu-B.ttf');
+    font-style: normal;
+    font-weight: normal;
+}
+.trapeciya {
+    margin-left: 50px;
+}
+input {
+    width: 200px;
+    height: 30px;
+    padding-left: 20px;
+    border-radius: 5px;
+}
+img {
+    transition: transform .3s;
+}
+img:hover {
+    transform: scale(1.2);
+}
+button {
+    width: 150px;
+    height: 40px;
+    border: none;
+    border-radius: 20px;
+    font-size: 20px;
+    font-family: Ubuntu;
+    transition: box-shadow .3s, transform .3s;
+}
+button:hover {
+    box-shadow: 5px 5px 5px rgb(0, 249, 42);
+    transform: scale(1.1);
+    cursor: pointer;
+}
+.trapeciya img {
+    padding: 5px;
+    background-color: white;
+}
+hr {
+    margin-left: 100px;
+    margin-right: 100px;
+}
+.sympson {
+    margin-left: 50px;
+}
+.sympson img {
+    padding: 5px;
+    background-color: white;
+}
+.leftrect {
+    margin-left: 50px;
+}
+.leftrect img {
+    padding: 5px;
+    background-color: white;
+}
+.rightrect {
+    margin-left: 50px;
+}
+.rightrect img {
+    padding: 5px;
+    background-color: white;
+}
+.middlerect {
+    margin-left: 50px;
+}
+.middlerect img {
+    padding: 5px;
+    background-color: white;
+}
+.gauss {
+    margin-left: 50px;
+}
+.gauss img {
+    padding: 5px;
+    background-color: white;
+}
+.eiler {
+    margin-left: 50px;
+    min-width: 600px;
+}
+.eiler img {
+    padding: 5px;
+    background-color: white;
+}
